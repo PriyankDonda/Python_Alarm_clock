@@ -60,7 +60,7 @@ def alarm_play():
             string = " It's Time to Wake up!... "
             label3.config(text=string)
             # Playing sound
-            playsound('F:/Python Programming/python project/alarm_sound.mp3')
+            playsound('./alarm_sound.mp3')
             break
         
     string = " Set Alarm again, No Alarm Set!... "
